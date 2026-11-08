@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f7f3eb">
+<meta name="description" content="ICE PATISSERIE — ICE SELECTION.">
+<title>ICE PATISSERIE | ICE SELECTION</title>
+<style>
+:root{--bg:#f7f3eb;--wine:#551b2a;--muted:#7e6266;--line:#dfd2c9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--wine);font-family:Georgia,"Times New Roman",serif}
+.wrap{width:min(1050px,calc(100% - 40px));margin:auto}
+header{border-bottom:1px solid var(--line);background:rgba(247,243,235,.97)}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 0;font:12px Arial,sans-serif;letter-spacing:.12em}
+.brand{font-weight:bold;text-decoration:none;letter-spacing:.18em}
+nav{display:flex;gap:20px;flex-wrap:wrap}nav a{text-decoration:none;color:var(--wine)}
+.hero{position:relative;isolation:isolate;min-height:620px;display:grid;place-items:center;text-align:center;padding:90px 0;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;z-index:-2;background:url("ice-patisserie-dis-mekan.jpg") center 46%/cover no-repeat;opacity:.52;filter:saturate(.82)}
+.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(247,243,235,.43)}
+.eyebrow{font:11px Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(44px,8vw,82px);font-weight:500;letter-spacing:.06em;line-height:.98;margin:24px 0}
+.tag{font:12px Arial,sans-serif;letter-spacing:.3em}
+.hero p,.intro{color:var(--muted);line-height:1.8}
+.hero p{font-size:19px;margin:26px auto;max-width:620px}
+.cta{display:inline-block;padding:14px 23px;border:1px solid var(--wine);text-decoration:none;font:11px Arial,sans-serif;letter-spacing:.15em}
+section{padding:70px 0;border-top:1px solid var(--line)}
+.head{text-align:center;margin-bottom:38px}
+h2{font-size:clamp(30px,5vw,44px);font-weight:500;margin:12px 0}
+.menu-description{max-width:680px;margin:12px auto 0}
+.menu-sections{max-width:780px;margin:auto}
+.menu-category{margin:0 0 38px}
+.menu-category h3{font-size:17px;font-weight:500;letter-spacing:.16em;text-align:center;margin:0 0 18px}
+.menu-category ul{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.menu-category li{padding:15px 8px;border-bottom:1px solid var(--line);text-align:center;font-size:19px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:45px;max-width:800px;margin:auto}
+.contact h3{font-size:21px;font-weight:500;margin:0 0 12px}
+.contact p{color:var(--muted);line-height:1.6;margin:0 0 15px}
+.link{display:inline-block;margin:5px 0;color:var(--wine);text-underline-offset:4px}
+footer{text-align:center;border-top:1px solid var(--line);padding:25px;color:var(--muted);font:10px Arial,sans-serif;letter-spacing:.12em}
+@media(max-width:650px){
+ .nav{align-items:flex-start;flex-direction:column}nav{gap:13px}
+ .hero{min-height:calc(100svh - 105px);padding:50px 0;background-position:center center}
+ .hero-content{padding:28px 20px}
+ .contact{grid-template-columns:1fr;gap:28px}
+ section{padding:54px 0}
+ .menu-category li{font-size:17px}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#anasayfa">ICE PATISSERIE</a>
+<nav aria-label="Ana menü"><a href="#anasayfa">Ana Sayfa</a><a href="#menu">Menü</a><a href="#hakkimizda">Hakkımızda</a><a href="#iletisim">İletişim</a></nav>
+</div></header>
+<main>
+<section class="hero" id="anasayfa" style="border-top:0">
+<div class="hero-content">
+<div class="eyebrow">Zarafetle hazırlanan tatlar</div>
+<h1>ICE<br>PATISSERIE</h1>
+<div class="tag">ICE SELECTION</div>
+<p>Her lokmada mutluluk… Günün her saati tatlı bir mola.</p>
+<a class="cta" href="#menu">Menüyü keşfet</a>
+</div></section>
+<section id="menu"><div class="wrap">
+<div class="head">
+<div class="eyebrow">ICE SELECTION</div>
+<h2>Menümüz</h2>
+<p class="intro menu-description">Her biri kendi hikâyesine sahip, özenle hazırlanan tatlılar ve gününüze eşlik edecek küçük mutluluklar.</p>
+</div>
+<div class="menu-sections">
+<div class="menu-category"><h3>PASTALAR &amp; CHEESECAKE</h3><ul>
+<li>Sernik</li><li>ICE Bitter</li><li>Iceberg</li><li>Lime Cheesecake</li><li>Frambuaz Cheesecake</li><li>Lotus Cheesecake</li><li>Devil’s Cake</li><li>Torta Caprese</li>
+</ul></div>
+<div class="menu-category"><h3>TATLILAR</h3><ul>
+<li>Vişneli Brownie</li><li>Glutensiz Brownie</li><li>Tiramisu</li><li>Panna Cotta</li><li>Muzlu Rulo</li>
+</ul></div>
+<div class="menu-category"><h3>FIRINDAN</h3><ul><li>Cinnamon Roll</li></ul></div>
+<div class="menu-category"><h3>SANDVİÇ &amp; ATIŞTIRMALIK</h3><ul>
+<li>Focaccia Sandwich</li><li>Bagel Sandwich</li><li>Tost</li>
+</ul></div>
+</div></div></section>
+<section id="hakkimizda"><div class="wrap head" style="max-width:760px">
+<div class="eyebrow">ICE PATISSERIE</div><h2>Hakkımızda</h2>
+<div class="intro" style="text-align:left">
+<p><strong>Bazı hikâyeler bir hayalle başlar…</strong></p>
+<p>ICE Patisserie, henüz 22 yaşında, kendi yolunu çizmek ve çocukluğundan beri içinde büyüttüğü pastacılık tutkusunu gerçeğe dönüştürmek isteyen genç bir kadının hayaliyle doğdu.</p>
+<p>Her tarifinde biraz emek, biraz cesaret ve bolca tutku saklı.</p>
+<p>Geçmişin zarafetinden ilham alırken, modern pastacılığın özgün dokunuşlarını da unutmadan; her tatlıyı küçük bir sanat eseri gibi hazırlıyoruz.</p>
+<p>Bizim için ICE yalnızca bir pastane değil; hayallerin gerçeğe dönüştüğü, kahvenin yanında güzel sohbetlerin biriktiği ve küçük anların unutulmaz hatıralara dönüştüğü bir yer.</p>
+</div>
+</div></section>
+<section id="iletisim"><div class="wrap">
+<div class="head"><div class="eyebrow">Sizi bekliyoruz</div><h2>İletişim</h2><p class="intro">Kahramanmaraş'ta sizi bekliyoruz.</p></div>
+<div class="contact">
+<div><h3>Adresimiz</h3><p>Akif İnan Mahallesi<br>Çarşı Modern<br>Onikişubat / Kahramanmaraş<br><strong>ICE PATISSERIE</strong></p>
+<a class="link" href="https://maps.app.goo.gl/d85tBJfcCiMj4fwT9?g_st=ic" target="_blank" rel="noopener noreferrer">Google Haritalar'da yol tarifi al ↗</a></div>
+<div><h3>Bize ulaşın</h3><p>Instagram üzerinden bizimle iletişime geçebilirsiniz.</p>
+<a class="link" href="https://www.instagram.com/icepatisserie/" target="_blank" rel="noopener noreferrer">@icepatisserie ↗</a></div>
+</div></div></section>
+</main><footer>ICE PATISSERIE · ICE SELECTION</footer>
+</body></html>

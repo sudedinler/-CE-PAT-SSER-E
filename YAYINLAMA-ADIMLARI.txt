@@ -1,0 +1,22 @@
+ICE PATISSERIE — SON TASARIM / YAYINLAMA
+
+Bu pakette:
+- index.html: Güncellenmiş site
+- ice-patisserie-dis-mekan.jpg: Ana sayfada daha belirgin, yarı saydam arka plan fotoğrafı
+
+Tasarım güncellemeleri:
+- Ana sayfa sloganı "ICE SELECTION" olarak değiştirildi.
+- Menü açıklaması: "Her biri kendi hikâyesine sahip, özenle hazırlanan tatlılar ve gününüze eşlik edecek küçük mutluluklar."
+- Dış cephe fotoğrafı ana sayfada daha görünür filigran arka plan olarak ayarlandı.
+- Menüde fiyat yok; 4 kategori ve 17 ürün yer alıyor.
+- İletişim: Akif İnan Mahallesi, Çarşı Modern, Onikişubat / Kahramanmaraş.
+- Instagram: @icepatisserie.
+- Harita bağlantısı siteye eklendi.
+
+GitHub Pages:
+1. GitHub'da ice-patisserie deposunu açın.
+2. index.html ve ice-patisserie-dis-mekan.jpg dosyalarını aynı ana dizine yükleyin.
+3. Eski index.html sorulursa yenisiyle değiştirin.
+4. Settings > Pages > Deploy from a branch seçin.
+5. Branch: main, Folder: /(root) seçip Save'e basın.
+6. Yayın adresini açıp ana sayfa fotoğrafını ve menüyü kontrol edin.
